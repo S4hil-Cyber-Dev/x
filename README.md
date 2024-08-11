@@ -1,4 +1,5 @@
-### **Motivational Shayari*
+<h1 style="color: red;">Motivation Shayari</h1>
+
 by SAHIL
 **1.**  
 हर मुश्किल को आसान बना देना,  
