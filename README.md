@@ -1,5 +1,5 @@
-### **Motivational Shayari**
-
+### **Motivational Shayari*
+by SAHIL
 **1.**  
 हर मुश्किल को आसान बना देना,  
 जो ठान लिया है वो कर दिखाना,  
