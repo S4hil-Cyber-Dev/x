@@ -1,52 +1,26 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
+    <title>Square Image Example</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
+        .square-image {
+            width: 200px; /* Square width */
+            height: 200px; /* Square height */
+            overflow: hidden; /* Hide overflow */
         }
-        .profile-container {
-            text-align: center;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        .profile-container img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .profile-container h1 {
-            margin-top: 20px;
-            font-size: 24px;
-        }
-        .profile-container p {
-            color: #666;
-            font-size: 16px;
+        .square-image img {
+            width: 100%; /* Scale to fill container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below the image */
         }
     </style>
 </head>
 <body>
-
-    <div class="profile-container">
-        <!-- Image -->
-        <img src="file-MOfWc4pTWbFm6s6q1sVhvVqg.jpeg" alt="Profile Picture">
-        <!-- Name -->
-        <h1>Sahil</h1>
-        <!-- Description -->
-        <p>Advanced Editing Enthusiast</p>
+    <h1>Square Image</h1>
+    <div class="square-image">
+        <img src="Sahil.jpg" alt="Base64 Example">
     </div>
-
 </body>
 </html>
