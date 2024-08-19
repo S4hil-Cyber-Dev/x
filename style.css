@@ -266,43 +266,4 @@ span{
         width: 70vw;
         margin-top: 4rem;
         
-        /* Style for "My Work" heading */
-.my-work {
-    color: red;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 24px;
-    font-family: 'matemasie-regular', matemasie-regular; /* Add your preferred font here */
-}
-
-/* Style for the image gallery */
-.gallery {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 120px; /* Adjust height as needed */
-}
-
-.gallery-wrapper {
-    display: flex;
-    width: 200%; /* Double the width to allow seamless scroll */
-    animation: slide 20s linear infinite;
-}
-
-.gallery img {
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
-    margin-right: 15px;
-}
-
-/* Slide animation */
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
         
