@@ -266,12 +266,13 @@ span{
         width: 70vw;
         margin-top: 4rem;
         
-        }/* Style for "My Work" heading */
+        /* Style for "My Work" heading */
 .my-work {
     color: red;
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    font-family: 'matemasie-regular', matemasie-regular; /* Add your preferred font here */
 }
 
 /* Style for the image gallery */
@@ -303,6 +304,5 @@ span{
     100% {
         transform: translateX(-50%);
     }
-    }
-    
+}
         
